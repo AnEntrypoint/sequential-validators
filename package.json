@@ -1,0 +1,28 @@
+{
+  "name": "tasker-validators",
+  "version": "1.0.0",
+  "description": "Validation utilities and field validators for sequential-ecosystem tasks",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./patterns": "./src/patterns.js",
+    "./result": "./src/result.js",
+    "./field-validators": "./src/field-validators.js",
+    "./schema-validators": "./src/schema-validators.js",
+    "./type-checkers": "./src/type-checkers.js"
+  },
+  "scripts": {
+    "test": "node tests/test-base.js"
+  },
+  "keywords": [
+    "tasker",
+    "validators",
+    "field-validators",
+    "schema-validation",
+    "type-checking",
+    "sequential"
+  ],
+  "author": "",
+  "license": "MIT"
+}
