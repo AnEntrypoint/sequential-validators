@@ -1,5 +1,5 @@
 {
-  "name": "tasker-validators",
+  "name": "sequential-validators",
   "version": "1.0.0",
   "description": "Validation utilities and field validators for sequential-ecosystem tasks",
   "type": "module",
@@ -16,7 +16,7 @@
     "test": "node tests/test-base.js"
   },
   "keywords": [
-    "tasker",
+    "sequential",
     "validators",
     "field-validators",
     "schema-validation",
