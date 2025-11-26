@@ -12,17 +12,23 @@
     "./schema-validators": "./src/schema-validators.js",
     "./type-checkers": "./src/type-checkers.js"
   },
-  "scripts": {
-    "test": "node tests/test-base.js"
-  },
+  "files": [
+    "src"
+  ],
   "keywords": [
     "sequential",
     "validators",
     "field-validators",
     "schema-validation",
-    "type-checking",
-    "sequential"
+    "type-checking"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "lanmower",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-validators.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
